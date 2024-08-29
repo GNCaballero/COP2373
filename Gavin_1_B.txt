@@ -1,0 +1,27 @@
+Name: Gavin Caballero
+Date Created: 8/29/24
+---
+Program Description:
+This program acts as a magic 8 ball and provides a random response to queries
+---
+Logical Steps:
+1. Creates 8ball_responses.txt and fills it with responses
+2. Splits the document into a list of different responses
+3. Prompts user to ask their question
+4. Selects a random response from the list
+5. Quits when user types quit
+---
+Variables:
+1. response_list: A list with all possible responses
+---
+Functions:
+1. Function Name: responses
+   Description: Function that creates 8ball_responses.txt and splits the responses into a list
+   Parameters: none
+   Returns: response_list: A list with all possible responses
+2. Function Name: questions
+   Description: Function that prompts the user and provides a random response
+   Parameters: response_list: A list with all possible responses
+   Returns: none
+---
+Link to repository: https://github.com/GNCaballero/COP2373
