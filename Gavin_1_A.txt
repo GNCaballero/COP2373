@@ -1,0 +1,26 @@
+Name: Gavin Caballero
+Date Created: 8/29/24
+---
+Program Description:
+This program calculates tickets purchased versus the available tickets and when all tickets have been sold, outputs how many different buyers there were.
+---
+Logical Steps:
+1. Checks that there are still tickets available
+2. Requests input from user detailing how many tickets they want
+3. Checks that the input is an integer and that all requirements are filled
+4. Subtracts the purchased tickets from the total
+5. Adds 1 to the amount of buyers
+6. When all tickets have sold, displays number of buyers
+---
+Variables:
+1. total: Integer representing the amount of tickets left available
+2. tickets: Integer representing the amount of tickets being bought by the current buyer
+3. buyers: Integer representing the amount of separate buyers
+---
+Functions:
+1. Function Name: ticket_counter
+   Description: Function that repeatedly asks for tickets purchased until stock is empty
+   Parameters: total(int): The amount of tickets available
+   Returns: buyers(int): The amount of separate buyers
+---
+Link to repository: https://github.com/GNCaballero/COP2373
