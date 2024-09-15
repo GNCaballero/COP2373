@@ -1,0 +1,27 @@
+Name: Gavin Caballero
+Date Created: 9/15/24
+---
+Program Description:
+This program reads a user input and determines the liklihood of it being spam
+---
+Logical Steps:
+1. Creates spam_words.txt and fills it with spam-likely phrases
+2. Prompts user to enter their text
+3. Checks the text for spam-likely words
+4. Prints out spam score, likliness of being spam, and the spam-likely words or phrases detected
+---
+Variables:
+1. spam_score: int that tracks spam-likely words
+2. spam_likely: list that keeps spam-likely words detected
+---
+Functions:
+1. Function Name: spam_words
+   Description: Function that creates spam_words.txt and splits the words and phrases into a list
+   Parameters: none
+   Returns: spam_list: a list with spam-likely words
+2. Function Name: spam_checker
+   Description: Function that prompts the user and detects how spam-likely the text is
+   Parameters: spam_list: a list with spam-likely words
+   Returns: spam_score: in that tracks spam-likely words
+---
+Link to repository: https://github.com/GNCaballero/COP2373
