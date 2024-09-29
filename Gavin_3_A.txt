@@ -1,0 +1,40 @@
+Name: Gavin Caballero
+Date Created: 9/22/24
+---
+Program Description:
+This program reads user's expenses and calculates the total, greatest expense, and least expense
+---
+Logical Steps:
+1. Prompts user for expense type and amount
+2. Stores the information in a list
+3. Adds the total
+4. Analyzes for greatest and least expense
+5. Displays total, greatest expense, and least expense
+---
+Variables:
+1. expense: the expense type as a string
+2. expense_amount: the expense amount as a float
+3. expense_list: stores expense and its corresponding expense_amount
+4. total_expense: total expenses as a float
+5. highest_expense: expense type of the greatest expense
+6. lowest_expense: expense type of the least expense
+---
+Functions:
+1. Function Name: get_expenses
+   Description: Function that prompts the user for expense type and amount and stores it in a list
+   Parameters: none
+   Returns: expense_list: stores expense and its corresponding expense_amount
+2. Function Name: calculate_total
+   Description: Function that calculates the total expenses
+   Parameters: expense_list: stores expense and its corresponding expense_amount
+   Returns: total_expense: total expenses as a float
+3. Function Name: find_highest_expense
+   Description: Function that finds the highest expense
+   Parameters: expense_list: stores expense and its corresponding expense_amount
+   Returns: highest_expense: expense type of the greatest expense
+4. Function Name: find_lowest_expense
+   Description: Function that finds the lowest expense
+   Parameters: expense_list: stores expense and its corresponding expense_amount
+   Reurns: lowest_expense: expense type of the least expense
+---
+Link to repository: https://github.com/GNCaballero/COP2373
