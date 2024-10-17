@@ -1,0 +1,42 @@
+Name: Gavin Caballero
+Date Created: 10/17/24
+---
+Program Description:
+This program checks the format of the user's phone number, ssn, and zip code
+---
+Logical Steps:
+1. Prompts user for phone number
+2. Compares with given format
+3. If the format is incorrect, the user is reprompted
+4. Else, they move on
+5. Repeat the process for ssn and zip code
+---
+Variables:
+1. phone: user input of phone number
+2. ssn: user input of ssn
+3. zip: user input of zip code
+4. pattern: the format that the input has to match
+---
+Functions:
+1. Function Name: phoneNumber
+   Description: Function that checks if the user input is formatted correctly
+   Parameters: phone: user input of phone number
+   Returns: True or False
+2. Function Name: social
+   Description: Function that checks if the user input is formatted correctly
+   Parameters: ssn: user input of ssn
+   Returns: True or False
+3. Function Name: zipCode
+   Description: Function that checks if the user input is formatted correctly
+   Parameters: zip: user input of zip code
+   Returns: True or False
+4. Function Name: prompt_for_valid_input
+   Description: Function that remprompts the user upon incorrect format
+   Parameters: prompt_message: string printed for user, validation_fuction: the function used to check format
+   Reurns: valid or invalid messages
+5. Function Name: main
+   Description: Function that runs the program
+   Parameters: none
+   Returns: none
+---
+Link to repository: https://github.com/GNCaballero/COP2373
