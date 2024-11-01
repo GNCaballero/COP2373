@@ -1,0 +1,46 @@
+Name: Gavin Caballero
+Date Created: 11/1/24
+---
+Program Description:
+This program holds the values of bank account: the name, account number, balance,and interest rate.
+---
+Logical Steps:
+1. Base information is entered
+2. Multiple methods are available for editing the values
+3. Information is printed
+---
+Variables:
+1. bank: local variable of BankAcct for testing purposes
+2. accountNum: account number
+3. amount: balance
+4. interest: interest rate
+5. gain: calculation of interest over a period of x days
+6. days: days for gain calculation
+---
+Functions:
+1. Function Name: interestAdjust
+   Description: Function that changes the interest rate to a selected value
+   Parameters: self, interest
+   Returns: none
+2. Function Name: withdraw
+   Description: Function that subtracts a selected value from the balance
+   Parameters: self, amount
+   Returns: none
+3. Function Name: deposit
+   Description: Function that adds a selected value to the balance
+   Parameters: self, amount
+   Returns: none
+4. Function Name: setBalance
+   Description: Function that changes the balance to a selected value
+   Parameters: self, amount
+   Reurns: none
+5. Function Name: calculateInterest
+   Description: Function that calculates the interest after x days
+   Parameters: self, days
+   Returns: gain
+6. Function Name: testing
+   Description: Function that tests the other functions and displays results
+   Parameters: none
+   Returns: none
+---
+Link to repository: https://github.com/GNCaballero/COP2373
