@@ -1,0 +1,35 @@
+Name: Gavin Caballero
+Date Created: 11/17/24
+---
+Program Description:
+This program deals a hand of 5 cards and allows the user to discard cards from said hand
+---
+Logical Steps:
+1. Original 5 cards are dealt
+2. User is prompted for their chosen cards to discard
+3. New cards are dealt
+---
+Variables:
+1. my_deck: 52 card deck
+2. new_card: dealt card
+3. save_point: holds information on original hand to prevent errors
+---
+Functions:
+1. Function Name: deal
+   Description: Function that deals cards to the user
+   Parameters: self
+   Returns: new_card
+2. Function Name: new_hand
+   Description: Function that discards all of the user's cards
+   Parameters: self
+   Returns: none
+3. Function Name: redraw
+   Description: Function that prompts the user for how many cards they wish to discard
+   Parameters: my_deck, save_point
+   Returns: none
+4. Function Name: play
+   Description: Function that runs the program
+   Parameters: none
+   Reurns: none
+---
+Link to repository: https://github.com/GNCaballero/COP2373
