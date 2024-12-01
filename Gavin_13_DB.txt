@@ -1,0 +1,46 @@
+Name: Gavin Caballero
+Date Created: 12/1/24
+---
+Program Description:
+This program creates a database for Florida city populations in 2023, simulates population growth for 20 years at a 2% annual growth rate, and provides a visual representation of the growth for any selected city
+---
+Logical Steps:
+1. Create a SQLite database named population_GC.db and a table named population.
+2. Populate the table with initial population data for 10 Florida cities for the year 2023.
+3. Simulate population growth for each city for the next 20 years (2024–2043).
+4. Allow the user to select a city from the list to visualize its population growth using a line graph.
+5. Continue providing visualization options until the user exits the program.
+---
+Variables:
+1. conn: Connection object for SQLite database.
+2. cities: List of tuples containing the names, years, and population data for the cities.
+3. years: List of years used for plotting population growth.
+4. populations: List of population values corresponding to the years for a specific city.
+---
+Functions:
+1. Function Name: create_database
+   Description: Creates and connects to a SQLite database named population_GC.db.
+   Parameters: None
+   Returns: Connection object (conn)
+2. Function Name: create_table
+   Description: Creates a table named population in the database to store city, year, and population data.
+   Parameters: conn (SQLite connection object)
+   Returns: None
+3. Function Name: insert_initial_data
+   Description: Inserts initial population data for 10 cities in Florida for the year 2023.
+   Parameters: conn (SQLite connection object)
+   Returns: None
+4. Function Name: simulate_population_growth
+   Description: Simulates population growth for each city for the years 2024 to 2043, using a 2% annual growth rate.
+   Parameters: conn (SQLite connection object)
+   Returns: None
+5. Function Name: plot_population_growth
+   Description: Generates a line graph to display population growth for a selected city.
+   Parameters:conn (SQLite connection object), city (Name of the city to plot data for)
+   Returns: None
+6. Function Name: main
+   Description: The main function that runs the program, enabling user interaction for selecting cities and viewing population growth.
+   Parameters: None
+   Returns: None
+---
+Link to repository: https://github.com/GNCaballero/COP2373
